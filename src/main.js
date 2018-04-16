@@ -17,6 +17,13 @@ import '../static/css/style.css'
 
 Vue.use(Vuex)
 
+const RouterConfig = {
+  mode: 'history',
+  routes: router
+}
+
+
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
