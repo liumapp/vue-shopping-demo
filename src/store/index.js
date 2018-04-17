@@ -8,6 +8,7 @@
 
 import Vue from 'vue'
 import Vuex from 'vuex'
+import product_data from '../data/product';
 
 Vue.use(Vuex)
 

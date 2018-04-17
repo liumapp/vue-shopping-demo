@@ -44,7 +44,7 @@ const RouterConfig = {
   routes: routers
 }
 
-const router = new VueRouter(RouterConfig)
+const router = new Router(RouterConfig)
 
 router.beforeEach((to, from, next) => {
   window.document.title = to.meta.title
